@@ -6,8 +6,7 @@ import { HomeComponent } from './pages/Home/home.component';
 
 export const routes: Routes = [
     { path: '', component: HomeComponent },
-    { path: 'pageNotFound', loadChildren: './pages/PageNotFound/PageNotFound.module#PageNotFoundModule' }
-   
+    { path: 'pageNotFound', loadChildren: './pages/PageNotFound#PageNotFoundModule' }
 ];
 
 @NgModule({
