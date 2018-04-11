@@ -12,9 +12,10 @@ Estructura evolutiva de Angular
 
 npm run page-component --name __pageNotFound__ 
 
-    --skype-animation: Sin animaciones
-    --skype-routing:   Sin routing
-    --skype-test:      Sin pruebas
-    --skype-lazy:      Sin lazy loading
+    --skype-animation (boolean): Sin animaciones
+    --skype-routing (boolean):   Sin routing
+    --skype-test (boolean):      Sin pruebas
+    --skype-lazy (boolean):      Sin lazy loading
+    --directory (string):        Definir directorio de la ubicacion del componente
 
 ## 
